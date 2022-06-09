@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo List</title>
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<body class="container-fluid">
+  <div class="row">
+    <h2 class="col-sm-4">Todo List</h2>
+  </div>
+  <ul class="list-group" id="todoList">
+  </ul>
+  <br>
+  <br>
+
+  <div class="row">
+    <h2 class="col-sm-4">Completed List</h2>
+  </div>
+  <ul class="list-group" id="completeList">
+  </ul>
+  <button class="btn btn-primary" id="getTodoBtn">Get Todo List</button>
+  <br>
+  <br>
+
+  <form class="form-control">
+    <label for="newTodo">New Task:</label>
+    <input type="text" id="newTodo" name="newTodo">
+  </form>
+  <button class="btn btn-warning" id="addTodoBtn">Add new todo</button>
+  <br><br>
+
+  <h2>Complete todo:</h2>
+
+
+  <form class="form-control">
+    <label for="TodoToUpdate">Enter task to be completed:</label>
+    <input type="text" id="TodoToUpdate" name="TodoToUpdate">
+  </form>
+  <button class="btn btn-success" id="updateTodoBtn">Complete this task</button>
+
+
+
+
+  <script src="index.js"></script>
+
+</body>
+</html>
